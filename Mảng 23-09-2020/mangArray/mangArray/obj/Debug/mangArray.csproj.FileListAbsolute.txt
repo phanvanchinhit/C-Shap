@@ -1,0 +1,6 @@
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\bin\Debug\mangArray.exe.config
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\bin\Debug\mangArray.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\bin\Debug\mangArray.pdb
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\obj\Debug\mangArray.csprojResolveAssemblyReference.cache
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\obj\Debug\mangArray.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\mangArray\obj\Debug\mangArray.pdb

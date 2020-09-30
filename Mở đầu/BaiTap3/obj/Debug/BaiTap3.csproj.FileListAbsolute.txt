@@ -1,0 +1,6 @@
+D:\C Sharp\Mở đầu\BaiTap3\bin\Debug\BaiTap3.exe.config
+D:\C Sharp\Mở đầu\BaiTap3\bin\Debug\BaiTap3.exe
+D:\C Sharp\Mở đầu\BaiTap3\bin\Debug\BaiTap3.pdb
+D:\C Sharp\Mở đầu\BaiTap3\obj\Debug\BaiTap3.csprojResolveAssemblyReference.cache
+D:\C Sharp\Mở đầu\BaiTap3\obj\Debug\BaiTap3.exe
+D:\C Sharp\Mở đầu\BaiTap3\obj\Debug\BaiTap3.pdb

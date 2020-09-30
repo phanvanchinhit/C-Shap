@@ -1,0 +1,6 @@
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\bin\Debug\DemoOOP2.exe.config
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\bin\Debug\DemoOOP2.exe
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\bin\Debug\DemoOOP2.pdb
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\obj\Debug\DemoOOP2.csprojResolveAssemblyReference.cache
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\obj\Debug\DemoOOP2.exe
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\DemoOOP2\obj\Debug\DemoOOP2.pdb

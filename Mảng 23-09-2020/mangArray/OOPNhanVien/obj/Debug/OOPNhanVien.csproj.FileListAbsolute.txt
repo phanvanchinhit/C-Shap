@@ -1,0 +1,6 @@
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\bin\Debug\OOPNhanVien.exe.config
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\bin\Debug\OOPNhanVien.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\bin\Debug\OOPNhanVien.pdb
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\obj\Debug\OOPNhanVien.csprojResolveAssemblyReference.cache
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\obj\Debug\OOPNhanVien.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\OOPNhanVien\obj\Debug\OOPNhanVien.pdb

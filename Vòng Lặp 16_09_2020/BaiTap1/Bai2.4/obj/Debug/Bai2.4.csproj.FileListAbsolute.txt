@@ -1,0 +1,5 @@
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\Bai2.4\bin\Debug\Bai2.4.exe.config
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\Bai2.4\bin\Debug\Bai2.4.exe
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\Bai2.4\bin\Debug\Bai2.4.pdb
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\Bai2.4\obj\Debug\Bai2.4.exe
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\Bai2.4\obj\Debug\Bai2.4.pdb

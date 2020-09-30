@@ -1,0 +1,6 @@
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\bin\Debug\BaiTap3.exe.config
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\bin\Debug\BaiTap3.exe
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\bin\Debug\BaiTap3.pdb
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\obj\Debug\BaiTap3.csprojResolveAssemblyReference.cache
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\obj\Debug\BaiTap3.exe
+D:\C Sharp\Vòng Lặp 16_09_2020\BaiTap1\BaiTap3\obj\Debug\BaiTap3.pdb

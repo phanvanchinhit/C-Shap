@@ -1,0 +1,5 @@
+D:\C Sharp\Mảng 23-09-2020\mangArray\Colection\bin\Debug\Colection.exe.config
+D:\C Sharp\Mảng 23-09-2020\mangArray\Colection\bin\Debug\Colection.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\Colection\bin\Debug\Colection.pdb
+D:\C Sharp\Mảng 23-09-2020\mangArray\Colection\obj\Debug\Colection.exe
+D:\C Sharp\Mảng 23-09-2020\mangArray\Colection\obj\Debug\Colection.pdb

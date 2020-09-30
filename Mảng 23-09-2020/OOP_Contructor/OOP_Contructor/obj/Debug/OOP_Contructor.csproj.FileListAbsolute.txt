@@ -1,0 +1,6 @@
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\bin\Debug\OOP_Contructor.exe.config
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\obj\Debug\OOP_Contructor.csprojResolveAssemblyReference.cache
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\bin\Debug\OOP_Contructor.exe
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\bin\Debug\OOP_Contructor.pdb
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\obj\Debug\OOP_Contructor.exe
+D:\C Sharp\Mảng 23-09-2020\OOP_Contructor\OOP_Contructor\obj\Debug\OOP_Contructor.pdb
