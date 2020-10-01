@@ -9,3 +9,9 @@ D:\C Sharp\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\obj\Debug\QuanLySanPha
 D:\C Sharp\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\bin\Debug\QuanLySanPham.exe
 D:\C Sharp\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
 D:\C Sharp\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\obj\Debug\QuanLySanPham.csprojResolveAssemblyReference.cache
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\bin\Debug\QuanLySanPham.exe.config
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\obj\Debug\QuanLySanPham.exe
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\obj\Debug\QuanLySanPham.pdb
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\bin\Debug\QuanLySanPham.exe
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\bin\Debug\QuanLySanPham.pdb
+D:\C-Shap\30-09-2020\OOP_Contructor\QuanLySanPham\obj\Debug\QuanLySanPham.csprojResolveAssemblyReference.cache

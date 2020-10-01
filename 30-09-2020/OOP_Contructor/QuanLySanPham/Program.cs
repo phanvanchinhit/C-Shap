@@ -9,6 +9,7 @@ namespace QuanLySanPham
     class Program
     {
         private static List<SanPham> dsSanPham = new List<SanPham>();
+
         static void Main(string[] args)
         {
             do
@@ -30,13 +31,21 @@ namespace QuanLySanPham
                         break;
 
                     case "2":
-                        Console.WriteLine("\n{0,-15}{1,-20}{2,-15}{3,-18}{4,-15}{5,-20}",
+                        if(dsSanPham.Count != 0)
+                        {
+                            Console.WriteLine("\n{0,-15}{1,-20}{2,-15}{3,-18}{4,-15}{5,-20}",
                             "Ma san pham", "Ten san pham", "Mau sac",
                             "So luong", "Gia ban", "Tong tien");
-                        foreach(SanPham item in dsSanPham)
-                        {
-                            Console.WriteLine(item.ToString());
+                            foreach (SanPham item in dsSanPham)
+                            {
+                                Console.WriteLine(item.ToString());
+                            }
                         }
+                        else
+                        {
+                            Console.WriteLine("\n\nKhong ton tai san pham nao");
+                        }
+                        
                         Console.ReadLine();
                         break;
                     case "3":
@@ -49,6 +58,9 @@ namespace QuanLySanPham
 
                     case "5":
                         Program.searchSanPham();
+                        break;
+                    case "6":
+                        Environment.Exit(0);
                         break;
                 }
             } while (true);
@@ -72,6 +84,8 @@ namespace QuanLySanPham
 
             SanPham sanphammoi = new SanPham(masp, tensp, mausac, soluong, giaban);
             dsSanPham.Add(sanphammoi);
+            Console.WriteLine("\n\nThem moi san pham thanh cong");
+            Console.ReadLine();
 
         }
         static private void deleteSp()
@@ -107,17 +121,21 @@ namespace QuanLySanPham
             Console.WriteLine("\nTim Kiem Thong Tin\n");
             Console.Write("\nNhap vao ma san pham can search: ");
             maspsearch = Console.ReadLine();
-            foreach(SanPham item in dsSanPham)
+            Console.WriteLine("\n{0,-15}{1,-20}{2,-15}{3,-18}{4,-15}{5,-20}",
+                            "Ma san pham", "Ten san pham", "Mau sac",
+                            "So luong", "Gia ban", "Tong tien");
+            foreach (SanPham item in dsSanPham)
             {
                 if(maspsearch == item.MaSP)
                 {
                     Console.WriteLine(item.ToString());
                     count++;
                 }
-                if(count == 0)
-                {
-                    Console.WriteLine("\n\nKhong tim thay san pham tren");
-                }
+
+            }
+            if (count == 0)
+            {
+                Console.WriteLine("\n\nKhong tim thay san pham tren");
             }
             Console.ReadLine();
         }
@@ -150,14 +168,15 @@ namespace QuanLySanPham
                     dsSanPham.Add(update);
                     count++;
                 }
-                if(count != 0)
-                {
-                    Console.WriteLine("\nSua thanh cong");
-                }
-                else
-                {
-                    Console.WriteLine("Khong tim thay san pham tren");
-                }
+                
+            }
+            if (count != 0)
+            {
+                Console.WriteLine("\nSua thanh cong");
+            }
+            else
+            {
+                Console.WriteLine("Khong tim thay san pham tren");
             }
             Console.ReadLine();
         }
