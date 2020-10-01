@@ -39,16 +39,19 @@ namespace QuanLySanPham
                         }
                         Console.ReadLine();
                         break;
+                    case "3":
+                        Program.deleteSp();
+                        break;
+
+                    case "4":
+                        Program.editSanPham();
+                        break;
 
                     case "5":
                         Program.searchSanPham();
                         break;
                 }
             } while (true);
-        }
-        static private void editSanPham()
-        {
-
         }
         static private void addSanPham()
         {
@@ -74,25 +77,33 @@ namespace QuanLySanPham
         static private void deleteSp()
         {
             string maspdel;
+            int count = 0;
             Console.WriteLine("\nTim Kiem Thong Tin\n");
-            Console.Write("\nNhap vao ma san pham can search: ");
+            Console.Write("\nNhap vao ma san pham can xoa: ");
             maspdel = Console.ReadLine();
-            foreach (SanPham item in dsSanPham)
+            for (int i=0; i<dsSanPham.Count; i++)
             {
-                if (maspdel == item.MaSP)
+                if (maspdel == dsSanPham[i].MaSP)
                 {
-                    dsSanPham.Remove(item);
+                    dsSanPham.Remove(dsSanPham[i]);
+                    count++;
                 }
-                else
-                {
-                    Console.WriteLine("Khong tim thay san pham tren");
-                }
+
+            }
+            if (count == 0)
+            {
+                Console.WriteLine("Khong tim thay san pham tren");
+            }
+            else
+            {
+                Console.WriteLine("\n\nXoa san pham thanh cong");
             }
             Console.ReadLine();
         }
         static private void searchSanPham()
         {
             string maspsearch;
+            int count = 0;
             Console.WriteLine("\nTim Kiem Thong Tin\n");
             Console.Write("\nNhap vao ma san pham can search: ");
             maspsearch = Console.ReadLine();
@@ -101,6 +112,47 @@ namespace QuanLySanPham
                 if(maspsearch == item.MaSP)
                 {
                     Console.WriteLine(item.ToString());
+                    count++;
+                }
+                if(count == 0)
+                {
+                    Console.WriteLine("\n\nKhong tim thay san pham tren");
+                }
+            }
+            Console.ReadLine();
+        }
+        static private void editSanPham()
+        {
+            string editsearch;
+            int count = 0;
+            Console.WriteLine("\nTim Kiem Thong Tin\n");
+            Console.Write("\nNhap vao ma san pham can sua: ");
+            editsearch = Console.ReadLine();
+            for(int i=0; i<dsSanPham.Count; i++)
+            {
+                if (editsearch == dsSanPham[i].MaSP)
+                {
+                    string masp = dsSanPham[i].MaSP;
+                    dsSanPham.Remove(dsSanPham[i]);
+                    string tensp, mausac;
+                    int soluong;
+                    double giaban;
+                    Console.Write("\nNhap vao ten san pham: ");
+                    tensp = Console.ReadLine();
+                    Console.Write("\nNhap vao mau sac san pham: ");
+                    mausac = Console.ReadLine();
+                    Console.Write("\nNhap vao so luong san pham: ");
+                    soluong = int.Parse(Console.ReadLine());
+                    Console.Write("\nNhap vao gia ban san pham: ");
+                    giaban = double.Parse(Console.ReadLine());
+
+                    SanPham update = new SanPham(masp, tensp, mausac, soluong, giaban);
+                    dsSanPham.Add(update);
+                    count++;
+                }
+                if(count != 0)
+                {
+                    Console.WriteLine("\nSua thanh cong");
                 }
                 else
                 {
