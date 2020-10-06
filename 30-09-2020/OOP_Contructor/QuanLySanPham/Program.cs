@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace QuanLySanPham
 {
@@ -28,24 +29,18 @@ namespace QuanLySanPham
                 {
                     case "1":
                         Program.addSanPham();
+                        ghiFile(dsSanPham);
                         break;
 
                     case "2":
-                        if(dsSanPham.Count != 0)
-                        {
                             Console.WriteLine("\n{0,-15}{1,-20}{2,-15}{3,-18}{4,-15}{5,-20}",
                             "Ma san pham", "Ten san pham", "Mau sac",
                             "So luong", "Gia ban", "Tong tien");
-                            foreach (SanPham item in dsSanPham)
-                            {
-                                Console.WriteLine(item.ToString());
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("\n\nKhong ton tai san pham nao");
-                        }
-                        
+                            //foreach (SanPham item in dsSanPham)
+                            // {
+                            //  Console.WriteLine(item.ToString());
+                            //}
+                            DocFile();
                         Console.ReadLine();
                         break;
                     case "3":
@@ -179,6 +174,25 @@ namespace QuanLySanPham
                 Console.WriteLine("Khong tim thay san pham tren");
             }
             Console.ReadLine();
+        }
+        static private void ghiFile(List<SanPham> dsSanPham)
+        {
+            StreamWriter w = new StreamWriter("DanhSachSanPham.txt", true);
+            foreach (SanPham item in dsSanPham)
+            {
+                w.WriteLine(item);
+            }
+            w.Close();
+        }
+        static private void DocFile()
+        {
+            StreamReader r = new StreamReader("DanhSachSanPham.txt");
+            while( r.Peek() != -1)
+            {
+                Console.WriteLine(r.ReadLine());
+            }
+            r.Close();
+            //Console.ReadLine();
         }
     }
 }
