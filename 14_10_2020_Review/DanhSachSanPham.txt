@@ -1,0 +1,8 @@
+
+1                   chinh          vang           2              20000          0              40000          
+
+2                   yen            xanh           3              12000          2              72000          
+
+1                   chinh          vang           2              20000          0              40000          
+
+2                   yen            xanh           3              12000          2              72000          
